@@ -24,7 +24,7 @@ npm start
 
 ## Demo
 
-The API is shown at your localhost (http://localhost:<port>)
+The API is shown at your localhost (http://localhost:\<port\>)
 
 - Version: 1.0.0
 - License: ISC
