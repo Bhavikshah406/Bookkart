@@ -1,0 +1,34 @@
+{
+  "name": "bookkart",
+  "version": "1.0.0",
+  "description": "Bookkart application",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon index.js"
+  },
+  "author": "Bhavik Shah",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "emitter": "0.0.5",
+    "events": "^3.2.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.0.0",
+    "express-rate-limit": "^5.1.3",
+    "helmet": "^4.1.1",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.7",
+    "morgan": "^1.10.0",
+    "rand-token": "^1.0.1",
+    "xss": "^1.0.8",
+    "xss-clean": "^0.1.1"
+  }
+}
